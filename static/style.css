@@ -1,0 +1,92 @@
+:root {
+  color-scheme: light;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f3f5f9;
+  color: #1e1f24;
+}
+
+.container {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.habit-form {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+input[type="text"] {
+  flex: 1 1 220px;
+  padding: 0.45rem 0.65rem;
+}
+
+button {
+  background: #3254d7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.45rem 0.8rem;
+  cursor: pointer;
+}
+
+button.danger {
+  background: #ce2f45;
+}
+
+.habit-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.habit-list li {
+  border-top: 1px solid #ececf1;
+  padding: 0.8rem 0;
+}
+
+.habit-list li:first-child {
+  border-top: none;
+}
+
+.habit-row span {
+  margin-left: 0.5rem;
+  color: #60667a;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #e4e7f0;
+  text-align: center;
+  padding: 0.45rem;
+}
+
+th:first-child,
+td:first-child {
+  text-align: left;
+}
