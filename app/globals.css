@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900;
+}
+
+kbd {
+  @apply rounded border border-slate-300 bg-slate-100 px-1.5 py-0.5 text-xs text-slate-700;
+}
