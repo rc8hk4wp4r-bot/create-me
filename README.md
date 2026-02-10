@@ -1,19 +1,15 @@
-# 習慣トラッカー MVP（Flask + SQLite）
+# 習慣トラッカー MVP（Python標準ライブラリ + SQLite）
 
 自己啓発・習慣トラッカー Web アプリのプロトタイプです。1人利用を想定したシンプル構成で、習慣の CRUD、日次達成チェック、週間表示に対応しています。
 
 ## セットアップ
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
+追加ライブラリは不要です（Python 3.11+ 推奨）。
 
 ## 起動
 
 ```bash
-python app.py
+python3 app.py
 ```
 
 起動後、ブラウザで `http://127.0.0.1:5000` にアクセスしてください。
